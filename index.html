@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Landing Page Design</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+    <section>
+      <header>
+        <h2><a href="#" class="logo">Logo</a></h2>
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Info</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </header>
+      <div class="content">
+        <div class="info">
+          <h2>Like Nature <br><span>Be Creative!</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a href="#" class="info-btn">More Info</a>
+        </div>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("img.jpg");
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top:40px;
+        }
+
+        .regform{
+            width:800px;
+            background-color: rgb(0,0,0,6);
+            margin:auto;
+            color:#FFFFFF;
+            padding:10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+
+
+        }
+        .mane{
+            background-color: rgb(0,0,0,0.5);
+            width:800px;
+            margin:auto;
+        }
+        form{
+            padding:10px;
+        }
+
+        #name{
+            width:100%;
+            height:100px;
+        }
+        .name{
+            margin-left:25px;
+            margin-top:30px;
+            width: 125px;
+            color:white;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .firstname{
+            position: relative;
+            left:200px;
+            top:-37px;
+            line-height:40px;
+            border-radius: 6px;
+            padding:0 22px;
+            font-size: 16px;
+        }
+        .lastname{
+            position: relative;
+            left:417px;
+            top:-80px;
+            line-height:40px;
+            border-radius: 6px;
+            padding:0 20px;
+            font-size: 16px;
+            
+            color:#555;
+
+        }
+        .firstlabel{
+            position: relative;
+            color:#E5E5E5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 203px;
+            top:-45px;
+        }
+        .lastlabel{
+            position: relative;
+            color:#E5E5E5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 175px;
+            top:-45px;
+
+        }
+        .company{
+            position: relative;
+            left: 200px;
+            top:-37px;
+            line-height: 40px;
+            width: 480px;
+            border-radius: 6px;
+            padding:0 22px;
+            font-size: 16px;
+            color:#555;
+        }
+
+        .email{
+            position: relative;
+            left: 200px;
+            top:-37px;
+            line-height: 40px;
+            width: 480px;
+            border-radius: 6px;
+            padding:0 22px;
+            font-size: 16px;
+            color:#555;
+
+        }
+
+        .code{
+            position: relative;
+            left: 200px;
+            top:-37px;
+            line-height: 40px;
+            width: 95px;
+            border-radius: 6px;
+            padding:0 22px;
+            font-size: 16px;
+            color:#E5E5E5;
+
+
+        }
+        .number{
+            position: relative;
+            left: 200px;
+            top:-37px;
+            line-height: 40px;
+            width: 280px;
+            border-radius: 6px;
+            padding:0 22px;
+            font-size: 16px;
+            color:#E5E5E5;
+
+
+
+        }
+        .area-code{
+            position:relative;
+            color:#E5E5E5;
+            text-transform: capitalize;
+            font-size:16px;
+            left:50px;
+            top:-0px;
+        }
+        .phone-number{
+            position:relative;
+            color:#E5E5E5;
+            text-transform: capitalize;
+            font-size:16px;
+            left:-100px;
+            top:-2px;
+
+        }
+        .option{
+            position: relative;
+            left: 200px;
+            top:-37px;
+            line-height: 40px;
+            width: 532px;
+            height: 40px;
+            border-radius: 6px;
+            padding:0 22px;
+            font-size: 16px;
+            color:#555;
+            outline: none;
+            overflow: hidden;
+            
+        }
+        .option option{
+            font-size:20px;
+
+        }
+        #Student{
+            margin-left: 25px;
+            color:white;
+            font-size:18px;
+        }
+        .radio{
+            display:inline-block;
+            padding-right: 70px;
+            font-size:25px;
+            margin: left 25px;
+            margin-top:15px;
+            color:white;
+        }
+        .radio input{
+            width:30px;
+            height:20px;
+            border-radius:50%;
+            cursor:pointer;
+            outlinenone;
+        }
+        button{
+            background-color: #3BAF9F;
+            display:block;
+            margin:20px 0px 0px 20px;
+            text-align:center;
+            border-radius:12px;
+            border:2px solid #366473;
+            padding:14px 110px;
+            outline:none;
+            color:white;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="regform"><h1>CONTACT US</h1></div>
+        <div class="mane">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name"><br>
+                    <label class="firstlabel">first name</label>
+                    <input class="lastname" type="text" name="last_name">
+                    <label class="lastlabel"> lastname</label>
+                </div>
+                <h2 class="name">company</h2>
+                <input class="company" type="text" name="company">
+
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email">
+
+                <h2 class="name">phone</h2>
+                <input class="code" type="text" name="area_code">
+                <label class="area-code">Area code</label>
+                <input class="number" type="text" name="phone">
+                <label class="phone-number">phone-number</label>
+
+                
+
+                <h2 class="name">BRANCH</h2>
+                <select class="option" name="BRANCH">
+                <option disabled="disabled" selected="selected">--choose option</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>ME</option>
+                </select>
+
+                <h2 id="Student">Are you FEMALE? </h2>
+
+                <label class="radio">
+                    <input class="radio-one" type="radio" name="ans",value="yes">yes
+                    
+                    
+                </label>
+
+                <label class="radio">
+                    <input class="radio-two" type="radio"  name="ans",value="no">no
+                    
+                
+                </label>
+
+                <button type="submit">register</button>
+
+
+            </form>
+        </div>
+
+  </body>
+</html>
+      
